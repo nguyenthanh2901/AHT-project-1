@@ -31,7 +31,7 @@ a{
     padding-right: 240px;
 }
 .header__menu ul li{
-    padding-right: 35px;
+    padding-right: 30px;
 }
 .header__menu ul li a{
     font-size: 18px;
@@ -42,7 +42,8 @@ a{
     line-height: 100px;
 }
 .header__icon ul li{
-    padding-right: 25px;
+    padding-right: 20px;
+    line-height: 100px;
 }
 
 .header__icon ul li img{
@@ -91,18 +92,24 @@ a{
 .content__left{
     flex: 50%;
 }
-.content__left-color img{
+.content__left-color{
+    padding-bottom: 110px;
+}
+.content__left .colors{
+    display: flex;
+    flex-direction: row;
+}
+.colors .color-1, .color-2, .color-3{
+    max-width: 70px;
+    text-align: center;
+    padding-right: 30px;
+}
+.colors img{
     width: 70px;
     height: 70px;
 }
-.content__left-color ul{
-    padding-right: 270px;
-}
-.content__left-color .detail{
-    padding-top: 20px;
-}
-.content__left-color li{
-    padding-right: 30px;
+.content__left-text-color{
+    padding-bottom: 110px;
 }
 .content__right{
     flex: 50%;
@@ -173,4 +180,5 @@ a{
     font-weight: 800;
     padding-bottom: 110px;
 }
+
 
